@@ -8,6 +8,79 @@ Tags:   changes, versions, history, log
 
 Body:   
  
+### Version 4.9.0 | 30 Nov 2020
+
+#### 1. Added new File Command to create a New Collection in iCloud
+
+The user will not need to pick a parent folder when using this option. The new Collection will be located in Notenik's special iCloud container. 
+
+
+#### 2. Added New Command to Stash Notes in Subfolder
+
+This command can be found beneath the Transform menu. This command makes an existing Collection compliant with the new structure for a Web Collection by creating a subfolder named 'notes' and them moving the existing Notes into that subfolder. 
+
+
+#### 3. Added New Command to Move a Collection
+
+The Move command can be found beneath the File menu. This command will copy an existing Collection to a new location, and then delete the original Collection. 
+
+
+#### 4. Added Menu Option to Browse a Web Index
+
+This can be found beneath the Transform menu. 
+
+
+#### 5. Added Support for Web Collections
+
+A Web Collection contains a website at the top level, and contains its notes within a subfolder named ‘notes’.
+
+
+### Version 4.8.0 | 13 Nov 2020
+
+#### 1. Other Adjustments for Big Sur
+
+Made a few other tweaks for enhanced compatibility with Big Sur. 
+
+
+#### 2. Updated App Icon for Big Sur
+
+Updated app icon shape and background for improved consistency with Big Sur. 
+
+
+#### 3. Show/Hide List Command implemented
+
+This allows the left side of the window, containing the Note list, to be collapsed and restored. 
+
+This should resolve Issue # 39.
+
+#### 4. Display Font Selection List Can Now Include all Available Fonts
+
+A checkbox has been added to the Display Fonts window that, when checked, will result in the list of available fonts being expanded to include all font families available on the user's Mac. If unchecked, the user will only be able to select from a relatively short list of common fonts. 
+
+This should close Issue # 38.
+
+#### 5. Launch at Startup tag enabled
+
+Adding a 'Launch at Startup' tag to a Note will now cause the Note's link to be launched when Notenik starts up. 
+
+
+### Version 4.7.0 | 06 Nov 2020
+
+#### 1. Added support for Citations
+
+Added support for citations, using the MultiMarkdown syntax. 
+
+
+#### 2. Fixed Crashing Bug in Notenik Export logic
+
+The Notenik export routine was consistently crashing. This has been corrected. 
+
+
+#### 3. Fixed Bug in Inline Footnote Generation
+
+When the body only contained inline footnotes, the footnote definitions were never generated. This has now been corrected. 
+
+
 ### Version 4.6.0 | 03 Nov 2020
 
 #### 1. Added support for Markdown footnotes
